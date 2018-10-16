@@ -22,10 +22,16 @@ $(document).ready(function(){
   //   $("#click-to-show").fadeToggle(5000);
   // });
 
-  $(".btn-success").click(function(){
-    $("#click-to-hide").slideUp();
-  });
-  $(".btn-warning").click(function(){
-    $("#click-to-hide").slideDown();
+  //slideUp and slideDown
+  // $(".btn-success").click(function(){
+  //   $("#click-to-hide").slideUp();
+  // });
+  // $(".btn-warning").click(function(){
+  //   $("#click-to-hide").slideDown();
+  // });
+
+  //slideToggle
+  $("#button-group").click(function(){
+    $("#click-to-hide").slideToggle();
   });
 });
