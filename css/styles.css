@@ -1,6 +1,6 @@
-#click-to-hide{
+/* #click-to-hide{
   display: none;
-}
+} */
 
 #click-to-hide img{
   width: 500px;
@@ -10,4 +10,9 @@
   text-decoration: underline;
   /* cursor: pointer;
   color: blue; */
+}
+
+#button-group {
+  padding-left: 10%;
+  padding-top: 10%;
 }
