@@ -1,0 +1,13 @@
+#click-to-hide{
+  display: none;
+}
+
+#click-to-hide img{
+  width: 500px;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+  /* cursor: pointer;
+  color: blue; */
+}
